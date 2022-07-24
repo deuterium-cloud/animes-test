@@ -34,3 +34,4 @@ PODAM:
 ArchUnit:
 * https://www.archunit.org/userguide/html/000_Index.html
 * https://github.com/TNG/ArchUnit-Examples
+* https://www.youtube.com/watch?v=IDHA9AAgmWM
