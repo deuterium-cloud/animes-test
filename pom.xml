@@ -21,6 +21,7 @@
 		<podam.version>7.2.8.RELEASE</podam.version>
 		<datafaker.version>1.3.0</datafaker.version>
 		<archunit.version>0.23.1</archunit.version>
+		<easy-random-core.version>5.0.0</easy-random-core.version>
 	</properties>
 
 	<dependencies>
@@ -70,6 +71,14 @@
 			<groupId>net.datafaker</groupId>
 			<artifactId>datafaker</artifactId>
 			<version>${datafaker.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- EASY -RANDOM -->
+		<dependency>
+			<groupId>org.jeasy</groupId>
+			<artifactId>easy-random-core</artifactId>
+			<version>${easy-random-core.version}</version>
 			<scope>test</scope>
 		</dependency>
 
